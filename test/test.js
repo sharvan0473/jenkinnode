@@ -3,7 +3,7 @@ var request = require('request');
 
 it('Main page content', function(done) {
     request('http://localhost:4000' , function(error, response, body) {
-        expect(body).to.equal('Hello World');
+        expect(body).to.equal('Hello World1');
         done();
     });
 });
